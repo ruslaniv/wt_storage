@@ -1,0 +1,8 @@
+[tool.jupytext]
+formats = "notebooks///ipynb,notebooks///py:percent,src///py"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
